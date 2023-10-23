@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(27, 87, 21);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.logo_photo{
+    width: 80px;
+}
+
+.kop{
+    font-weight: bold; 
+    font-size: 20px; 
+    margin:0px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.maincontent{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar{
+    background-color: rgb(36, 32, 32);
+    border-right: 2px  solid;
+    padding: 30px;
+}
+
+.sidebar > nav{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.sidebar li{
+    list-style: none;
+    text-align: center;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color: white;
+}
+
+form div label{
+    width: 100px;
+}
+
+form div{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+button{
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: rgb(36, 32, 32, 0.5);
+}
+
+footer{
+    background-color: rgb(27, 87, 21);
+    padding: 10px; 
+    text-align: center;
+}
