@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style/form.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo_photo" src="photo/HMIF.png" alt="Logo">
+        </div>
+        <div>
+            <p class="kop">HIMPUNAN MAHASISWA TEKNIK INFORMATIKA</p>
+        </div>
+    </header>
+    <main>
+        <section class="maincontent">
+            <div>
+                <img class="hmei" width="200px" src="photo/HMIF.png" alt="">
+            </div>
+            <form method="get">
+                <div>
+                    <label for="nama">Nama</label><span>:</span>
+                    <input required type="text" name="nama" id="nama">
+                </div>
+                <div>
+                    <label for="nim">NIM</label><span>:</span>
+                    <input required type="text" name="nim" id="nim">
+                </div>
+                <div>
+                    <label for="prodi">Program Studi</label><span>:</span>
+                    <input type="text" name="prodi" id="prodi">
+                </div>
+                <div>
+                    <label for="email">Email</label><span>:</span>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="password">Password</label><span>:</span>
+                    <input required type="password" name="password" id="password">
+                </div>
+                <div>
+                    <label for="jenis_kelamin">Jenis Kelamin</label><span>:</span>
+                    <input required type="text" name="jenis_kelamin" id="jenis_kelamin">
+                </div>
+                <div>
+                    <label for="date">Tanggal Lahir</label><span>:</span>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div>
+                    <label for="alamat">Alamat</label><span>:</span>
+                    <textarea name="alamat" id="alamat" cols="20" rows="5"></textarea>
+                </div>
+
+                <button id="js-button" type="submit" onclick="addListData()">Submit</button>
+            </form>
+            <div>
+                <img class="hmei" width="160px" src="photo/HME.png" alt="">
+            </div>
+        </section>
+        <section class="sidebar">
+            <nav>
+                <li><a href="index.html">Halaman Utama</a></li>
+                <li><a href="#">Halaman Form</a></li>
+                <li><a href="table.html">Halaman Tabel</a></li>
+            </nav>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Copyright 2023</p>
+    </footer>
+</body>
+</html>
